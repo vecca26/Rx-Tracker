@@ -1,0 +1,2018 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+label {
+    font-family: 'Poppins', sans-serif;
+}
+
+label {
+    font-size: 10px;
+}
+
+.table tr {
+    border-color: #dee2e6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.login-img {
+    padding: 28px 15px 15px 15px;
+    text-align: center;
+}
+
+.login {
+    height: 100vh;
+}
+
+.login .card {
+    box-shadow: 0px 0px 15px 5px rgba(97, 113, 153, 0.25);
+    background: #fff;
+}
+
+.login h3 {
+    text-align: center;
+    font-weight: 600;
+    color: #1A1A18;
+    padding-top: 10px;
+}
+
+.login p {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.login .forget-password {
+    text-align: right;
+}
+
+.login .forget-password a {
+    color: #1A1A18;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: right;
+}
+
+.login .forget-password a:hover {
+    text-decoration: none;
+}
+
+.login-submit .btn-warning {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    background: #F39100;
+    margin-bottom: 30px;
+    padding: 9px;
+}
+
+.login-contents .form-control {
+    padding: 19px;
+}
+
+.login-contents .form-control:focus {
+    border-color: #f39100;
+    box-shadow: none;
+}
+
+.login-contents label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #4E4E48;
+}
+
+.navbar h4 {
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.notification {
+    background-color: #fcd7b8;
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    font-size: 12px;
+    margin: 10px 40px 10px 0px;
+    border: 1px solid #8F8B86;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.notification .fa {
+    color: #000;
+    font-size: 14px;
+}
+
+.settings {
+    background-color: #F39100;
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    font-size: 12px;
+    margin: 10px 20px 10px 0px;
+    border: 1px solid #8F8B86;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.settings:hover {
+    color: #fff;
+}
+
+.settings .fa {
+    color: #000;
+    font-size: 14px;
+}
+
+.notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 10px;
+    border-radius: 50%;
+    background: #000;
+    color: white;
+}
+
+.brandlist-page .card {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    padding: 15px 0px 10px 0px;
+    box-shadow: none;
+}
+
+.brandlist-page {
+    margin-top: 20px;
+}
+
+.brandlist-page .input-group-text {
+    background-color: #fff;
+    border: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 13px 13px 13px 13px;
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.brandlist-page .input-group>.form-control {
+    padding: 20px 13px;
+    border-right: 0;
+    border-radius: 25px;
+}
+
+.brandlist-page .form-control:focus {
+    box-shadow: none;
+    border-color: #ccc;
+}
+
+.brandlist-page .brand-title {
+    font-size: 16px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.brandlist-page .input-group {
+    display: contents;
+}
+
+.brandlist-page .btn-warning {
+    background-color: #f39100;
+    width: 100%;
+    text-align: center;
+    padding: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.brandlist-page .brandlist-table .table .thead-dark th {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.brandlist-page .top-section .fa-plus-circle {
+    padding-left: 10px;
+}
+
+.time-count {
+    text-align: center;
+    color: #f39100;
+}
+
+.resend a {
+    color: #f39100;
+}
+
+.resend a:hover {
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.otp-head .btn-warning {
+    margin-top: 6px;
+    background-color: #f39100;
+    width: 100%;
+    text-align: center;
+    padding: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.login-contents .otp-head .form-control {
+    margin: 6px;
+}
+
+.sidebar-toggle {
+    background-color: #FCD7B8;
+    /* padding: 10px; */
+    color: #000;
+}
+
+.brand-list-content .card {
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    height: 80vh;
+}
+
+.brand-list-content .brand-list .thead-dark {
+    background-color: #000;
+}
+
+.brandlist-table .actions .edit {
+    background-color: #DBEAFE;
+    border-radius: 5px;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 13px;
+}
+
+.brandlist-table .actions .add {
+    background: #CBFAF0;
+    border-radius: 5px;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 13px;
+}
+
+.brandlist-table .actions .delete {
+    background: #FEF5D2;
+    border-radius: 5px;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 13px;
+}
+
+.dashboard-footer {
+    border-top: 1px solid #EAEAEA;
+    background-color: #fff;
+    padding: 20px;
+    bottom: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.dashboard-footer .fa-heart {
+    color: #F39100;
+}
+
+.dashboard-footer p {
+    padding: 0;
+    font-size: 14px;
+    margin: 0;
+}
+
+.client-data-form h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.client-data-form .card-body {
+    border: 1px solid #EAEAEA;
+    padding-bottom: 25px;
+
+}
+
+.client-data-form .card {
+    box-shadow: none;
+    margin-bottom: 100px;
+}
+
+.client-data-form label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.client-data-form .form-control {
+    padding: 1.3rem 0.85rem;
+    font-family: 'Poppins', sans-serif;
+    color: #A7A7A7;
+}
+
+.client-data-form .form-select {
+    padding: 0.7rem 0.85rem;
+    font-family: 'Poppins', sans-serif;
+    color: #A7A7A7;
+}
+
+.client-data-form .patient-details h4 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.client-data-form .patient-details .upload-file label {
+    background-color: #000;
+    color: white;
+    padding: 12px;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.client-data-form .add-rx-button {
+    text-align: right;
+}
+
+.client-data-form .add-rx-button .btn-warning {
+    background-color: #F39100;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 7px 35px;
+}
+
+.dataTables_info {
+    margin-top: 20px;
+    margin-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #9AA7BA;
+}
+
+.dataTables_info .pagintion .page-link {
+    color: #000;
+}
+
+/* .brandlist-page .dropdown .dropdown-menu.show{
+    left:-50px !important;
+}
+.brandlist-page .dropdown-menu{
+    min-width: 15rem;
+}  */
+
+.top-section .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.brandlist-page .top-section .dropdown-menu {
+    width: 13rem;
+    background-color: #FFF0E3;
+    border: #ECCBAE;
+}
+
+.brandlist-page .top-section .add-rx-btn {
+    text-align: center;
+}
+
+.brandlist-page .top-section .add-rx-btn .btn-add {
+    background-color: #f39100;
+    text-align: center;
+    padding: 6px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.datalist-table .actions .option {
+    background-color: #FEF5D2;
+    border-radius: 5px;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 13px;
+}
+
+.brand-list-content .datalist-table .table .thead-dark th {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.brand-list-content .datalist-table .table .thead-dark tr {
+    font-family: 'Poppins', sans-serif;
+}
+
+.brand-list-content .datalist-table .actions {
+    text-align: right;
+}
+
+.brand-list-content .datalist-table .ash {
+    background-color: #F8F8F8;
+}
+
+
+.datalisting-page .brand-title {
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.datalisting-page .btn-outline-dark {
+    background-color: #fff;
+    border: 1px solid #A7A7A7;
+    color: #6C6C6C;
+    font-size: 13px;
+    padding: 9px 12px;
+}
+
+.datalisting-page .btn-dark {
+    padding: 7px 8px;
+}
+
+.datalisting-page .btn-outline-dark:not(:disabled):not(.disabled).active {
+    background-color: #F39100;
+    border: 1px solid #F39100;
+    color: #fff;
+}
+
+.datalisting-page .data-brand-names ul li {
+    display: inline-block;
+
+}
+
+.datalisting-page .data-brand-names li {
+    list-style: none;
+    margin-top: 3px;
+}
+
+.datalisting-page .data-brand-names ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.datalisting-page .form-select {
+    padding: 7px;
+}
+
+.datalisting-page .data-brand-names {
+    text-align: right;
+}
+
+.client-notification h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+.client-notification .card {
+    box-shadow: none;
+    border: 1px solid #EAEAEA;
+}
+
+.client-notification {
+    margin-bottom: 95px;
+}
+.client-notification .cn-detail p{
+    font-size: 15px;
+
+}
+.client-notification .cn-detail h6{
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.client-notification .cn-detail-time p{
+    color: #878787;
+    font-size: 13px;
+    text-align: right;
+
+}
+.client-notification .border-line{
+    border-bottom: 1px solid #cccccc;
+}
+
+
+.client-notification .nav-tabs .nav-link{
+    color: #c2c2c2;
+    border: none;
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+}
+.client-notification .nav-tabs .nav-link:hover {
+    border-color: #ffffff #ffffff #dee2e6;
+    isolation: isolate;
+}
+.client-notification .nav-tabs .nav-link:focus {
+    border-color: #ffffff #ffffff #dee2e6;
+    isolation: isolate;
+}
+.client-notification .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom: 2px solid #3F76ED;
+    color: #3F76ED;
+    background-color: transparent;
+}
+.client-profile h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.client-profile .card {
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #EAEAEA
+}
+
+.client-profile .profile-datails h4 {
+    color: #595959;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+
+
+
+.bb-profile {
+    margin-top: 40px;
+
+}
+
+.bb-profile input {
+    outline: none;
+    border: none;
+
+}
+
+
+.bb-profile .wrap-input100 {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #adadad;
+    margin-bottom: 37px
+}
+
+.bb-profile .input100 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    padding: 0 5px
+}
+
+.bb-profile .bbb-input {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: -32px;
+    left: 0;
+    pointer-events: none
+}
+
+
+.bb-profile .bbb-input::after {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1;
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s
+}
+
+.bb-profile .input100:focus+.bbb-input::after {
+    top: 0px
+}
+
+.input100:focus+.bbb-input::before {
+    width: 100%
+}
+
+
+.bb-profile .has-val.input100+.bbb-input::before {
+    width: 100%
+}
+
+.bb-profile input:-internal-autofill-selected {
+    background-color: transparent;
+}
+
+
+.client-profile {
+    margin-bottom: 10%;
+}
+
+.client-profile .update-pp {
+    text-align: center;
+    border-bottom: 2px solid #FCD7B8;
+    padding-bottom: 15%;
+}
+
+.client-profile .update-pp img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 4px 0 #cccccc;
+    width: 130px;
+    height: 130px;
+
+}
+
+.client-profile .update-pp h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.client-profile .update-pp p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #F39100;
+}
+
+.client-profile .update-pp label {
+    color: white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.client-profile .update-pp span {
+    background-color: #000;
+    padding: 3px 9px 8px 10px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    left: 60%;
+    top: 4%;
+}
+
+.client-profile .profile-btns {
+    text-align: right;
+}
+
+.client-profile .profile-btns .btn-dark {
+    background-color: #000;
+    border-color: #000;
+    padding: 7px 35px;
+    margin-right: 5px;
+}
+
+.client-profile .profile-btns .btn-warning {
+    background-color: #F39100;
+    border-color: #F39100;
+    padding: 7px 35px;
+}
+
+.client-profile .edit-profile-datails .form-control {
+    border: none;
+    border-radius: 0;
+    padding-left: 0;
+}
+
+.client-profile .edit-profile-datails .form-control:focus {
+    box-shadow: none;
+}
+
+.client-profile .edit-profile-datails .input-container {
+    display: flex;
+    width: 100%;
+    /* margin-bottom: 15px; */
+}
+
+.client-profile .edit-profile-datails .icon {
+    padding: 10px;
+    color: #AFAFAF;
+    min-width: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.client-profile .edit-profile-datails .form-group {
+    border-bottom: 1px solid #ccc;
+
+}
+
+
+
+.client-dashboard h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.client-dashboard .card {
+    box-shadow: none;
+    border: 1px solid #EAEAEA
+}
+
+.client-dashboard .card-header .card-cd-option {
+    text-align: right;
+}
+
+.client-dashboard .card-header {
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.client-dashboard .card-body .cd-card-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 65px;
+    top: -55px;
+    position: relative;
+
+}
+
+.client-dashboard .card-body {
+    padding-bottom: 0;
+}
+
+.client-dashboard .card-body .cd-bg-yellow {
+    background-color: #A14065;
+}
+
+.client-dashboard .card-body .cd-bg-blue {
+    background: #2D9AFE;
+}
+
+.client-dashboard .card-body .cd-bg-black {
+    background: #000000;
+}
+
+.client-dashboard .card-body .cd-bg-green {
+    background: #75CB79;
+}
+
+.client-dashboard .card-body .cd-card-content p {
+    color: #888888;
+}
+
+.client-dashboard .card-body .cd-card-content p .blue-span {
+    color: #2D9AFE;
+    font-size: 30px;
+}
+
+.client-dashboard .card-body .cd-card-content p .black-span {
+    color: #000000;
+    font-size: 30px;
+}
+
+.client-dashboard .card-body .cd-card-content p .green-span {
+    color: #75CB79;
+    font-size: 30px;
+}
+
+.client-dashboard .card-body .cd-card-content p .yellow-span {
+    color: #A14065;
+    font-size: 30px;
+}
+
+.client-dashboard .card-body .cd-card-content {
+    top: -40px;
+    position: relative;
+}
+
+.client-dashboard .card-body .cd-card-count h3 {
+    color: #000;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.client-dashboard .card-body .cd-card-count {
+    
+    position: absolute;
+    
+    right: 15px;
+    top: 43%;
+}
+
+.client-dashboard .card-footer {
+    top: -30px;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.client-dashboard .card-footer p {
+    color: #BBBBBB;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.client-data-detail h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.client-data-detail .card {
+    box-shadow: none;
+    border: 1px solid #EAEAEA;
+
+}
+
+.client-data-detail .data-img-detail img {
+    padding: 10px;
+    box-shadow: 0px 0px 4px 0px #ccc;
+    text-align: center;
+}
+
+.client-data-detail .data-img-detail {
+
+    text-align: center;
+}
+
+.data-img-detail .btn-dark,
+.data-img-detail .btn-warning {
+    padding: 7px 35px;
+    margin-top: 20px;
+
+}
+
+.data-img-detail .btn-warning {
+    background-color: #F39100;
+
+}
+
+.client-data-detail .data-details-contents .ddc-title {
+    display: inline-block;
+    width: 25%;
+    color: #000;
+    font-size: 14px;
+}
+
+.client-data-detail .data-details-contents h4 {
+    color: #F39100;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F39100;
+}
+
+
+
+/* ===============================ADMIN SIDE=============================================== */
+.regional-manager h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.regional-manager .rm-container {
+    background-color: #F9F9FB;
+    border: 1px solid #EAEAEA
+}
+
+.regional-manager .rm-from-container {
+    background-color: #fff;
+    border: 1px solid #EAEAEA
+}
+
+.regional-manager .rm-container .rm-profile {
+    text-align: center;
+    border-bottom: 1px solid #C6C6C6;
+
+}
+
+.regional-manager .rm-container .rm-profile .rmp-img {
+    text-align: center;
+}
+
+.regional-manager .rm-container .rm-profile .rmp-img h4 {
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+.regional-manager .rm-container .rm-profile .rmp-img p {
+    font-size: 12px;
+}
+
+.regional-manager .rm-container .rm-profile .rmp-icons .rmp-ico {
+    background-color: #fcd7b8;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 15px;
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.regional-manager .rm-container .rm-profile .rmp-icons .rmp-ico .badge {
+    background-color: #000000;
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.regional-manager .rm-container .rm-profile .rmp-icons {
+    display: inline-flex;
+}
+
+.regional-manager .rm-container .rm-profile .rmp-img img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 4px 0 #cccccc;
+    width: 130px;
+    height: 130px;
+}
+
+
+.regional-manager .area-manager-card {
+    background-color: #ffffff;
+    border-right: 1px solid #EAEAEA;
+    padding: 15px 15px 30px 15px;
+
+}
+
+.regional-manager .area-manager-card .area-mp-details p {
+    font-size: 13px;
+}
+
+.regional-manager .area-manager-card .area-mp-details .ampd-title {
+    width: 35%;
+    display: inline-block;
+}
+
+.rm-container .team-members h4 {
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.rm-container .team-members .tm-card {
+    margin-top: 20px;
+}
+
+.rm-container .team-members .tm-card .card {
+    box-shadow: none;
+    border: 1px solid #DFDFDF;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.rm-container .team-members .tm-card .card:hover {
+    background: #F39100;
+}
+
+.rm-container .team-members .tm-card .card .tm-card-icon h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 60px;
+    transition: 0.5s;
+}
+
+.rm-container .team-members .tm-card .card:hover .tm-card-icon h1 {
+    color: #F39100;
+
+}
+
+.rm-container .team-members .tm-card .card .card-body {
+    text-align: center;
+}
+
+.rm-container .team-members .tm-card .card .tm-card-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #F39100;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.rm-container .team-members .tm-card .card:hover .tm-card-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.rm-container .team-members .tm-card .card .tm-card-text h3 {
+    font-weight: 600;
+    margin-bottom: 0;
+    transition: 0.5s;
+}
+
+.rm-container .team-members .tm-card .card:hover .tm-card-text h3 {
+    color: #fff;
+
+}
+
+.rm-container .team-members .tm-card .card .tm-card-text p {
+    color: #9F9F9F;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.rm-container .team-members .tm-card .card:hover .tm-card-text p {
+    color: #fff;
+
+}
+
+.rm-container .team-members .tm-card .card .tm-card-btn .btn-outline-dark {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+    padding: 10px 15px;
+    width: 100%;
+    border: 1px solid #DFDFDF;
+    background-color: #fff;
+}
+
+.rm-container .team-members .tm-card .card .tm-card-btn .btn-outline-dark:hover {
+
+    background-color: #fff;
+    color: #000;
+
+}
+
+.input-group>.form-select {
+    padding: 10px 13px;
+    border-radius: 25px;
+}
+
+
+
+.areamanage-page .card {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    padding: 0px 0px 10px 0px;
+    box-shadow: none;
+}
+
+.areamanage-page {
+    margin-top: 20px;
+}
+
+.areamanage-page .input-group-text {
+    background-color: #000;
+    border: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 13px 13px 13px 13px;
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #fff;
+}
+
+.areamanage-page .input-group>.form-control {
+    padding: 20px 13px;
+    border-right: 0;
+    border-radius: 25px;
+}
+
+.areamanage-page .form-control:focus {
+    box-shadow: none;
+    border-color: #ccc;
+}
+
+.areamanage-page .brand-title {
+    font-size: 16px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.areamanage-page .input-group {
+    display: contents;
+}
+
+.areamanage-page .btn-warning {
+    background-color: #f39100;
+    width: 100%;
+    text-align: center;
+    padding: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.areamanage-page .brandlist-table .table .thead-dark th {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.areamanage-page .top-section .fa-plus-circle {
+    padding-left: 10px;
+}
+
+.areamanage-page .top-section .dropdown-menu {
+    width: 13rem;
+    background-color: #FFF0E3;
+    border: #ECCBAE;
+    text-align: center;
+}
+
+.areamanage-page .top-section .add-rx-btn .btn-add {
+    background-color: #f39100;
+    text-align: center;
+    padding: 6px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+
+.teamlist-page .card {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    padding: 0px 0px 10px 0px;
+    box-shadow: none;
+}
+
+.teamlist-page .btn-orange {
+    background-color: #F39100;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.teamlist-page .btn-orange,
+.teamlist-page .btn-dark {
+    padding: 8px 30px;
+}
+
+.teamlist-page {
+    margin-top: 20px;
+}
+
+.teamlist-page .input-group-text {
+    background-color: #fff;
+    border: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 13px 13px 13px 13px;
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #000;
+}
+
+.teamlist-page .input-group>.form-control {
+    padding: 20px 13px;
+    border-right: 0;
+    border-radius: 25px;
+}
+
+.teamlist-page .form-control:focus {
+    box-shadow: none;
+    border-color: #ccc;
+}
+
+.teamlist-page .brand-title {
+    font-size: 16px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.teamlist-page .input-group {
+    display: contents;
+}
+
+.teamlist-page .btn-warning {
+    background-color: #f39100;
+    width: 100%;
+    text-align: center;
+    padding: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.teamlist-page .brandlist-table .table .thead-dark th {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.teamlist-page .top-section .fa-plus-circle {
+    padding-left: 10px;
+}
+
+.teamlist-page .top-section .dropdown-menu {
+    width: 13rem;
+    background-color: #FFF0E3;
+    border: #ECCBAE;
+    text-align: center;
+}
+
+.teamlist-page .top-section .add-rx-btn .btn-add {
+    background-color: #f39100;
+    text-align: center;
+    padding: 6px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.teamlist-page .tm-members {}
+
+.teamlist-page .input-group label {
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.teamlist-page .brand-list-content2 .brandlist-table .actions .tm-action {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    line-height: 0;
+    margin: 10px;
+
+}
+
+.teamlist-page .actions .drop-head {
+    background-color: #F39100;
+    padding: 20px 15px;
+    display: flex;
+}
+
+.teamlist-page .actions .drop-content {
+    background-color: #fff;
+    padding: 20px 15px;
+
+}
+
+.teamlist-page .actions .dropdown-menu.show {
+    padding: 0;
+}
+
+.teamlist-page .actions .dropdown-menu {
+    min-width: 15rem;
+    border: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+.teamlist-page .actions .dropdown-menu .dh-img img {
+    width: 40px;
+}
+
+.teamlist-page .actions .dropdown-menu .dh-text {
+    padding-left: 10px;
+}
+
+.teamlist-page .actions .dropdown-menu .dh-text h5 {
+    margin: 0;
+    color: #fff;
+}
+
+.teamlist-page .actions .dropdown-menu .dh-text p {
+    margin: 0;
+    font-size: 11px;
+    color: #fff;
+}
+
+
+.teamlist-page .actions .drop-content .ddc-title {
+    display: inline-block;
+    width: 50%;
+    font-size: 12px;
+}
+
+.teamlist-page .actions .drop-content p {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #707070;
+
+}
+
+.brand-list-content2 .card {
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.brand-list-content2 .brand-list .thead-dark {
+    background-color: #000;
+}
+
+.brand-list-content2 .datalist-table .table .thead-dark th {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.brand-list-content2 .datalist-table .table .thead-dark tr {
+    font-family: 'Poppins', sans-serif;
+}
+
+.brand-list-content2 .datalist-table .actions {
+    text-align: right;
+}
+
+.brand-list-content2 .datalist-table .ash {
+    background-color: #F8F8F8;
+}
+
+.team-detail label {
+    color: #707070;
+    font-size: 14px;
+}
+
+.team-detail .td-edit svg {}
+
+.team-detail .td-edit {
+    width: 40px;
+    height: 40px;
+    background-color: #F39100;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    margin: 25px;
+}
+
+.manage-team-details label {
+    font-size: 14px;
+    color: #707070;
+    font-weight: 400;
+}
+
+.manage-team-detail-page {
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.mtd-form .input-group-append .btn-outline-secondary {
+    border: 1px solid #ced4da;
+    margin-left: 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.mtd-form .input-group-append .btn-outline-secondary:hover {
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    color: #6c757d;
+}
+
+.mtd-form .btn-warning {
+    background-color: #F39100;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-top: 8px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.mtd-form .btn-warning .fa {
+
+    padding-left: 20px;
+}
+
+.regional-manager .listing-managers table {
+    border: 1px solid #dee2e6;
+}
+
+.regional-manager .listing-managers .table .white-bg {
+    background-color: white;
+}
+
+/* .doctorlist-table .table tr td{
+    font-weight: 600;
+} */
+.doctorlist-table .table tr td .doctor-pic {
+    width: 35px;
+}
+
+.doctorlist-table .table tr td button {
+    background-color: transparent;
+    border: none;
+}
+
+.doctorlist-table .update-md-btn {
+    text-align: right;
+}
+
+.doctorlist-table .update-md-btn .btn-edit {
+    background-color: #F39100;
+    color: #fff;
+}
+
+
+
+.rm-from-container .update-pp {
+    text-align: left;
+
+}
+
+/* .rm-from-container .update-pp img{
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 4px 0 #cccccc;
+    width: 130px;
+    height: 130px;
+
+} */
+.rm-from-container .rm-form-pp-detail {
+    padding-left: 10px;
+}
+
+.rm-from-container .update-pp h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.rm-from-container .update-pp p {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-size: 13px;
+}
+
+.rm-from-container .update-pp label {
+    color: white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+    width: 130px;
+    height: 130px;
+    background-color: #cccccc;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 4px 0 #cccccc;
+
+}
+
+.rm-from-container .update-pp span {
+    border-radius: 50%;
+    position: absolute;
+    left: 7%;
+    top: 35%;
+}
+
+
+.rm-from-container form label {
+    color: #707070;
+    font-size: 13px;
+}
+
+.rm-from-container form .form-control {
+    padding: 1.3rem 0.85rem;
+}
+
+.rm-from-container form .form-select {
+    padding: 0.6rem 0.85rem;
+}
+
+.rm-from-container form .input-group-prepend button {
+    background-color: transparent;
+    border-left: none;
+    border-color: #ced4da;
+    box-shadow: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+}
+
+.rm-from-container .regional-menagers-add-btn {
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.rm-from-container .btn-warning {
+    background-color: #F39100;
+    padding: 8px 35px;
+}
+
+.dashboard-Page-content {
+    padding: 20px 15px 15px 15px;
+}
+
+.dashboard-Page-content h3 {
+    font-weight: 500;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.dashboard-content-cards {
+    background: #8DBDA8;
+    padding: 15px 15px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-content-cards p {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 13px;
+    margin: 0;
+}
+
+.dashboard-content-cards h6 {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.dashboard-content-cards h2 {
+    color: #fff;
+    font-size: 38px;
+    padding-top: 10px;
+}
+
+.dashboard-content-cards2 {
+    background: #ffffff;
+    padding: 15px 15px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-content-cards2 p {
+    color: #595656;
+    padding-top: 10px;
+    font-size: 13px;
+    margin: 0;
+}
+
+.dashboard-content-cards2 h6 {
+    color: #595656;
+    padding-top: 10px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.dashboard-content-cards2 h2 {
+    color: #595656;
+    font-size: 38px;
+    padding-top: 10px;
+}
+.brandlist-page .brand-title span{
+    color: #8E8E8E;
+}
+
+.ffmanage-page .brand-title {
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+.ffmanage-page .input-group>.form-select {
+    padding: 8px 30px 8px 15px;
+    font-size: 12px;
+}
+
+.ffmanage-page .form-select {
+    background-image: url(../images/icons/dropdown.png);
+    background-size: 8px 6px;
+}
+
+.ffmanage-page form .btn-dark {
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+.ffmanage-page .add-rx-btn .btn-add {
+    background-color: #F39100;
+    color: #fff;
+    padding: 8px 35px;
+}
+
+
+.ff-manager .rm-container .rm-profile .rmp-img2 {
+    text-align: left;
+    display: flex;
+}
+
+.ff-manager .rm-container .rm-profile .rmp-img2 h4 {
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+.ff-manager .rm-container .rm-profile .rmp-img2 p {
+    font-size: 12px;
+}
+
+.ff-manager .rm-container .rm-profile .rmp-img2 img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 4px 0 #cccccc;
+    width: 130px;
+    height: 130px;
+}
+
+.ff-manager .rm-container .rm-profile .rmp-img2 .ff-details {
+    margin-left: 15px;
+}
+
+.ff-manager .area-manager-card .area-mp-details2 {
+    border-bottom: 1px solid #ccc;
+}
+
+.ff-manager .area-manager-card .area-mp-details2 p {
+    font-size: 13px;
+    color: #494949;
+}
+
+.ff-manager .area-manager-card .area-mp-details2 .ampd-title {
+    width: 35%;
+    display: inline-block;
+    color: #ABABAB;
+}
+
+
+
+.ff-manager h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* .ff-manager .rm-container {
+    background-color: #fff;
+} */
+
+
+.ff-manager .rm-container .rm-profile {
+    text-align: center;
+    border-bottom: 1px solid #C6C6C6;
+
+}
+
+
+.ff-manager .rm-container .rm-profile .rmp-icons .rmp-ico {
+    background-color: #fcd7b8;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 15px;
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.ff-manager .rm-container .rm-profile .rmp-icons .rmp-ico .badge {
+    background-color: #000000;
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.ff-manager .rm-container .rm-profile .rmp-icons {
+    display: inline-flex;
+}
+
+.ff-manager .area-manager-card {
+    background-color: #ffffff;
+    padding: 15px 15px 30px 15px;
+
+}
+
+.teamView {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-notification-add {
+    text-align: right;
+}
+
+.btn-notification-add .btn-orange {
+    background-color: #F39100;
+    color: #fff;
+    margin: 15px;
+}
+
+.notify-btn-send .btn-warning {
+    background-color: #F39100;
+    color: #fff;
+    padding: 8px 35px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.notify-bulb{
+    background-color: #fff;
+    border: 1px solid #F39100;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+.notify-bulb p{
+    color: #8F8B86;
+    padding-top: 20px;  
+}
+
+
+.cms-submit .btn-orange {
+    background-color: #F39100;
+    color: #fff;
+  padding: 8px 35px;
+}
+
+.active-class{
+    border-bottom: 2px solid #F39100;
+}
+.active-class h5{
+    color: #F39100;
+    font-weight: 600;
+    
+}
+.step-s{
+    border-bottom: 2px solid #AFAFAF;
+}
+.step-s h5{
+    color: #AFAFAF;
+    font-weight: 600;
+    
+}
+
+.ff-dashboard-date .input-group>.form-control {
+    padding: 20px 13px;
+    border-right: 0;
+    border-radius: 25px;
+}
+.ff-dashboard-date form{
+    right: 15px;
+    position: absolute;
+}
+.ff-dashboard-date{
+    display: inline-flex;
+}
+.ff-dashboard-date .input-group-text {
+    background-color: #fff;
+    border: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 13px 13px 13px 13px;
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #000;
+}
+
+.ff-dashboard-date .btn-warning{
+    padding: 9px 35px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    background-color: #F39100;
+}
+.ff-notification-card a{
+    position: absolute;
+    right: 15px;
+}
+.ff-notification-card{
+    display: inline-flex;
+}
+.ff-notif-text{
+    color: #5C5656;
+    font-size: 12px;
+}
+.ff-noti-title-time .ff-noti-time p{
+    font-size: 12px;
+    right: 15px;
+    position: absolute;
+}
+
+.ff-noti-title-time{
+    display: inline-flex;
+}
+
+.ff-brand-card{
+    display: inline-flex;
+}
+.ff-brand-card .ff-brand-card-text h5{
+    font-weight: 500;
+    margin: 0;
+}
+.ff-brand-card .ff-brand-card-text p{
+    font-size: 13px;
+    margin: 0;
+    color: #6C6C6C;
+}
+.ff-brand-card .ff-brand-card-text{
+padding-left: 5px;
+}
+
+.newrx .btn-warning{
+    background-color: #F39100;
+}
+
+
+/* =============================================ANALYTICS============================== */
+
+.analytics-logo {
+    width: 100px;
+}
+.white-bg{
+    background-color: #fff;
+}
+
+.analytics-page label{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+
+}
+.analytics-page .btn-warning{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f39100;
+    padding: 6px 10px;
+    width: 100%;
+}
+.analytics-page .btn-dark{
+    font-family: 'Poppins', sans-serif;
+    padding: 6px 10px;
+    width: 100%;
+
+}
+
+
+.analytics-page .card{
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+}
+.analytics-page .qs-card-count{
+    text-align: right;
+    right: 25px;
+    position: absolute;
+}
+.analytics-page .qs-card-count h1 sub{
+    font-size: 16px;
+}
+.analytics-page .qs-card-text{
+    padding-left: 10px;
+    font-size: 18px;
+}
+.analytics-page .qs-card-text h4{
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    
+}
+.analytics-page .qs-card-count h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #4D4D4D;
+}
+.analytics-page .quick-summary h5{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.analytics-page .quick-summary .qs-head p{
+    font-size: 14px;
+}
+
+.analytics-page .quick-summary .qs-card{
+    padding: 15px;
+    display: flex;
+}
+.analytics-page .quick-summary .clr1{
+    background-color: #FFF3EA;
+    border: 2px dashed #F39100;
+    border-radius: 10px;
+}
+.analytics-page .quick-summary .clr2{
+    background-color: #EAEAEA;
+    border: 2px dashed #777777;
+    border-radius: 10px;
+}
+.analytics-page .quick-summary .clr3{
+    background-color: #fff;
+    border: 2px dashed #F39100;
+    border-radius: 10px;
+}
+.analytics-page .quick-summary .clr4{
+    background-color: #fff;
+    border: 2px dashed #777777;
+    border-radius: 10px;
+}
+
+.analytics-page .detailed-report h5{
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+}
+
+.analytics-page .detailed-report:after {
+    content: '';
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.detailed-report .card-header h5{
+    font-size: 14px;
+}
+
+.detailed-report .nav-link {
+    color: #000000;
+}
+
+.detailed-report .nav-pills .nav-link.active{
+    background-color: #f39100;
+}
+
+.analytics-page .canvasjs-chart-toolbar{
+    display: none;
+}
+
+.analytics-page .canvasjs-chart-credit{
+    display: none;
+}
+
+.btn-warnin-outline{
+    color:#F39100;
+    background-color: #fff;
+    border: 1px solid #f39100;
+}
+.btn-warnin-outline:hover{
+    color:#F39100;
+    background-color: #fff;
+    border: 1px solid #f39100;
+}
