@@ -138,7 +138,7 @@
                                                 </select>
 
                                             </div>
-                                            @endif
+                                           
                                             @if($user_type =='bdm')
 
                                             <div class="col">
